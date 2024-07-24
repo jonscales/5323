@@ -1,0 +1,26 @@
+name: DSsummer24
+ 
+dependencies:
+    - python=3.12       #python version that you want
+    - pip>=19.0         
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - seaborn
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - spyder
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+
+        
