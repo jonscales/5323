@@ -1,0 +1,26 @@
+name: covid
+ 
+dependencies:
+    - python=3.8   #python version compatible with our notebook
+    - pip>=19.0    # use a pip version 19 or newer 
+    - jupyter       # jupyter to work with notebooks
+    - numpy         #needed for math operations in pandas
+    - scikit-learn  # needed to run statistical preditions by prophet
+    - scipy         # needed to run statistical preditions by prophet
+    - pandas        # needed for data packaging
+    - pandas-datareader # needed to inport data set into pandas
+    - matplotlib        # needed for data visualization
+    - seaborn   # needed for data visualization
+    - requests  # needed to upload from www
+    - pyyaml    # needed to parse .yml file
+    - folium    # needed for data visualization
+    - plotly    # needed for data visualization
+    - statsmodels   # needed to run statistical preditions by prophet
+    - cython    # needed to import and use prophet module
+    - pystan    # needed to run statistical preditions by prophet
+    
+    - pip:
+        - prophet   #used to make predictions of future data trends
+        - kaggle # needed to download data from kaggle format datasets
+
+        
