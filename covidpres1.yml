@@ -1,0 +1,24 @@
+name: corona
+ 
+dependencies:
+    - python=3.12       #python version that you want
+    - pip>=19.0         
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - seaborn
+    - requests
+    - pyyaml
+    - folium
+    - plotly
+    - statsmodel
+   
+    - pip:
+        - pystan
+        - prophet
+        - kaggle
+
+        
