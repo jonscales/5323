@@ -14,7 +14,7 @@ dependencies:
     - pyyaml
     - folium
     - plotly
-    - statsmodel
+    - statsmodels
    
     - pip:
         - pystan
