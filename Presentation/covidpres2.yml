@@ -13,8 +13,7 @@ dependencies:
     - requests
     - pyyaml
     - folium
-    - libpython
-    - m2w64-toolchain
+
     - plotly
     - statsmodels
     - cython
